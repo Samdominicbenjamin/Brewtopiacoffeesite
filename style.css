@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+.nav1{
+    background-color: rgb(249, 147, 5);
+    top: 0;    
+    position: sticky;
+    height: 30px;
+    color: black;
+    padding:20px;
+    z-index: 10;
+
+}
+
+.nav1 p a{
+    padding: 18px;
+    color: black;
+    padding-left: 34px;
+    font-size: 19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.nav1 p a:hover{
+    font-size: 22px;
+    color: rgb(35, 33, 33);
+    text-shadow: 2px 2px 3px rgb(212, 108, 108);
+ 
+}
+.btn1{
+    padding: 5px ;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    border-radius: 20px 20px ;
+}
+.btn1:hover{
+    background-color: rgb(113, 43, 43);
+    font-size: 22px;
+}
+
+.nav2{
+    text-align: center;
+    background-color: rgb(249, 147, 5);
+    height: 30px;
+    color: black;
+    padding: 10px;
+   
+}
+
+/* home */
+#home{
+    
+    height: 620px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    
+}
+#home::before{
+    content:"" ;
+    position: absolute;
+    background-image: url('./images/cof2.jpg');
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+    z-index: -4;
+    
+}
+
+
+.div1{
+    border: 2px solid;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 220px;
+    width: 250px;
+    left: 5%;
+    top: 30%;
+    background-image: url('./images/cof1.jpg');
+
+}
+.div1:hover{
+    height: 240px;
+    width: 280px;
+    left: 6%;
+    top: 31%;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:30%;
+    left: 65%;
+    font-family: 'Brush Script MT',Cursive;
+    font-size: 50px;
+    
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom:40%;
+    left: 50%;
+    font-family:cursive;
+    font-size: 20px;
+   
+}
+.btn2{
+    padding: 5px ;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 20px 20px ;
+}
+.btn2:hover{
+    background-color: rgb(126, 60, 60);
+    color: white;
+    font-size: 23px;
+}
+
+
+/* about */
+
+#about{
+    height: 560px;
+    font-size: 30px;
+          
+}
+.div4{
+    height: 406px;
+    width: 660px;
+    float: left;
+    padding: 20px;
+    background-image: url('./images/cof5.avif');
+    background-size:cover ;
+    
+}
+.div5{
+    display: flex;
+    flex-direction: column;
+    height: 365px;
+    width: 660;
+    padding: 40px;
+    padding-left: 70px;
+    font-size: 22px;
+    text-align: center;
+    color: #C6C4C5;
+    background-color: #201E1F;
+    font-family:'Times New Roman', Times, serif
+    
+}
+.div6{
+    top: 0%;
+    background-color: #201E1F;
+    height: 50px;
+    text-align: center;
+    color: #C6C4C5;
+    padding-top:20px ;
+}
+
+/* top */
+
+#top{
+    height:1360px;
+    font-size: 30px;
+    
+}
+.div7{
+    float: left;
+    padding: 30px;
+    
+    height: 615px;
+    width: 443px;
+    background-color: black;
+    transition: all 0.8s;
+
+    
+}
+.div7:hover{
+
+    background-position: left bottom;
+    background-color: rgb(0,112,74);
+    box-shadow: 0 0 20px rgb(142, 46, 46);
+    border: none;
+}
+.div8{
+    float: left;
+    padding: 30px;
+    height: 615px;
+    width: 453px;
+    background-color: black;
+    transition: all 0.8s;
+
+    
+}
+.div8:hover{
+
+    background-position: left bottom;
+    background-color: rgb(138, 98, 74);
+    box-shadow: 0 0 20px rgb(142, 46, 46);
+    border: none;
+}
+
+.div9{
+    float: left;
+    padding: 30px;
+    height: 615px;
+    width: 443px;
+    background-color: black;
+    transition: all 0.8s;
+
+    
+}
+.div9:hover{
+
+    background-position: left bottom;
+    background-color: rgb(19,37,111);
+    box-shadow: 0 0 20px rgb(142, 46, 46);
+    border: none;
+}
+
+.div10{
+    float: left;
+    padding: 30px;
+    height: 590px;
+    width: 443px;
+    background-color:black;
+    transition: all 0.8s;
+
+    
+}
+.div10:hover{
+
+    background-position: left bottom;
+    background-color: rgb(221, 15, 45);
+    box-shadow: 0 0 20px rgb(142, 46, 46);
+    border: none;
+}
+
+.div11{
+    float: left;
+    padding: 30px;
+    height: 590px;
+    width: 453px;
+    background-color:black;
+    transition: all 0.8s;
+
+    
+}
+.div11:hover{
+
+    background-position: left bottom;
+    background-color: rgb(62, 15, 27);
+    box-shadow: 0 0 20px rgb(142, 46, 46);
+    border: none;
+}
+
+.div12{
+    float: left;
+    padding: 30px;
+    height: 590px;
+    width: 443px;
+    background-color:black;
+    transition: all 0.8s;
+
+    
+}
+.div12:hover{
+
+    background-position: left bottom;
+    background-color: rgb(111, 78, 55);
+    box-shadow: 0 0 20px rgb(142, 46, 46);
+    border: none;
+}
+
+
+/* shop */
+
+#shop{
+    height:680px;
+    font-size: 30px;
+    
+}
+.div13{
+    float: left;
+    padding: 30px;
+    height: 560px;
+    width: 443px;
+    background-color: black;
+    background: linear-gradient(to top, rgb(23, 64, 98)  50%,rgb(40, 31, 31) 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+    
+}
+.div13:hover{
+
+    background-position: left bottom;
+    background-color: rgb(20, 112, 192);
+    box-shadow: 0 0 20px rgb(142, 46, 46);
+    border: none;
+}
+
+.div14{
+    float: left;
+    padding: 30px;
+    height: 560px;
+    width: 453px;
+    background-color: black;
+    background: linear-gradient(to top, rgb(23, 64, 98)  50%,rgb(40, 31, 31) 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.div14:hover{
+
+    background-position: left bottom;
+    background-color: rgb(20, 112, 192);
+    box-shadow: 0 0 20px rgb(142, 46, 46);
+    border: none;
+}
+
+.div15{
+    float: left;
+    padding: 30px;
+    height: 560px;
+    width: 443px;
+    background-color: black;
+    background: linear-gradient(to top, rgb(23, 64, 98) 50%,rgb(40, 31, 31) 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.div15:hover{
+
+    background-position: left bottom;
+    
+    box-shadow: 0 0 20px rgb(142, 46, 46);
+    border: none;
+}
+
+.btn3{
+    padding: 5px ;
+    color: black;
+    background-color: rgb(66, 180, 188);
+    font-size: 18px;
+    border-radius: 20px 20px ;
+}
+.btn3:hover{
+    background-color: rgb(170, 223, 113);
+    font-size: 22px;
+}
+
+
+.btn4{
+    padding: 5px ;
+    color: black;
+    background-color: rgb(66, 180, 188);
+    font-size: 18px;
+    border-radius: 20px 20px ;
+}
+.btn4:hover{
+    background-color: rgb(170, 223, 113);
+    font-size: 22px;
+}
+
+
+
+
+/* contact */
+
+
+
+#contact{
+    height:360px;
+    font-size: 30px;
+    
+}
+.div16{
+    background-color: rgb(58, 43, 30);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+.input{
+    padding: 10px;
+    margin: 10px;
+}
+.send{
+    padding: 10px 15px;
+    border-radius: 10px 10px;
+}
+.send:hover{
+    color:black;
+    background-color: rgb(189, 126, 62);
+
+}
+
+
+/* * last navbar */ 
+
+
+.nav3{
+    background-color: rgb(245, 245, 245);
+    color: black;
+    font-size: 18px;
+    height: 35px;
+}
+.nav3 p a{
+    padding-left: 70px;
+}
+
